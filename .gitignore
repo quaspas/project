@@ -1,0 +1,8 @@
+*.rdb
+*.pyc
+localsettings.py
+local.py
+*.swp
+.DS_Store
+.idea
+*.sqlite3

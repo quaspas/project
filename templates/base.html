@@ -1,0 +1,17 @@
+{% load i18n %}
+{% spaceless %}
+    <!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <nav>
+        <a href="{% url 'home' %}">{% trans 'Home' %}</a><br>
+        <a href="{% url 'blog' %}">{% trans 'Blog' %}</a><br>
+        <a href="{% url 'about' %}">{% trans 'About' %}</a><br>
+    </nav>
+    {% block body %}{% endblock %}
+    </body>
+    <footer></footer>
+    </html>
+{% endspaceless %}
