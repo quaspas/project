@@ -1,5 +1,5 @@
 import os
-
+print('loading {}'.format(__file__))
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = '*4iz)^uvf^-)m5czt3r%m+eb*pao1l4h9%eye$rk(a&hba1ps2'
@@ -46,6 +46,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'project.app.context_processors.constants',
             ],
         },
     },

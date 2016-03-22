@@ -20,28 +20,28 @@ msgstr ""
 
 #: project/settings.py:65
 msgid "German"
-msgstr "DE-German"
+msgstr "Deutsche"
 
 #: project/settings.py:66
 msgid "English"
-msgstr "DE-English"
+msgstr "Englisch"
 
 #: project/urls.py:10
 msgid "^blog/$"
-msgstr "^de-blog/$"
+msgstr "^nachrichten/$"
 
 #: project/urls.py:11
 msgid "^about/$"
-msgstr "^de-about/$"
+msgstr "^etwa/$"
 
 #: templates/app/about.html:5 templates/base.html:13 templates/base.html.py:20
 msgid "About"
-msgstr "DE-About"
+msgstr "Etwa"
 
 #: templates/app/blog.html:5 templates/base.html:12 templates/base.html.py:19
 msgid "Blog"
-msgstr "DE-Blog"
+msgstr "Nachrichten"
 
 #: templates/app/index.html:5 templates/base.html:11 templates/base.html.py:18
 msgid "Home"
-msgstr "DE-Home"
+msgstr "Zuhause"
